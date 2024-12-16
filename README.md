@@ -11,3 +11,18 @@ The data set is exchangable.
 
 
 VEEPS uses the following distance ratio which is a novel metric to monitor the actual following distance compared to the required following distance.
+
+
+
+data_processer.py helps to process SUMO data into the required format.
+To use that, run 
+
+```
+    python data_processer.py \
+        --full <path to full output> \
+        --edge <path to edge output> \
+        --leader <path to additional edgeData file output> \
+        --network <path to network file> \
+        --output <path>
+
+```
