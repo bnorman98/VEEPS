@@ -6,4 +6,8 @@ The goal of VEEPS is to forecast traffic flow utilizing vehicular sensor informa
 In this repository, we share the source code of VEEPS and an example data set.
 The generation of the data set is shown in manuscript.
 The data set is exchangable.
+
 ![alt text](https://github.com/bnorman98/VEEPS/blob/main/VEEPS_Arch.jpg?raw=true)
+
+
+VEEPS uses the following distance ratio which is a novel metric to monitor the actual following distance compared to the required following distance.
