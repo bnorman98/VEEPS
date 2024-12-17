@@ -1,5 +1,5 @@
-# VEEPS
-repository for VEEPS - V2X-Based Traffic Congestion Prediction System
+# VEEPS - V2X-Based Traffic Congestion Prediction System
+To get more information contact corresponding author: bnorman@hit.bme.hu
 
 This repository contains the source code for the proposed system VEEPS.
 The goal of VEEPS is to forecast traffic flow utilizing vehicular sensor information and V2X.
@@ -15,6 +15,10 @@ VEEPS uses the following distance ratio which is a novel metric to monitor the a
 
 
 data_processer.py helps to process SUMO data into the required format.
+This data_processer module is published to let researchers prepare SUMO data to the required format.
+The exact simulation parameters are described in the article.
+The simulation environment (part of Buda, Hungary) is also published. 
+(Without the traffic data due to the size.)
 To use that, run 
 
 ```
